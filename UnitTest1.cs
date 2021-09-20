@@ -17,17 +17,18 @@ namespace GithubTest
 
 
 			IWebDriver driver = new ChromeDriver(service);
-			driver.Navigate().GoToUrl("https://github.com/aycayakicii");
+			driver.Navigate().GoToUrl("https://github.com/aycayakicii/repositories");
 
 
 			IWebElement element = driver.FindElement(By.Name("q"));
-			element.SendKeys("aycayakicii");
+			element.SendKeys("aycayakici slema");
 			Thread.Sleep(2000);
 			element.SendKeys(Keys.Enter);
-			
+			Thread.Sleep(2000);
 
 
-			
+
+
 		}
 	}
 }
