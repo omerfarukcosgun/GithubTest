@@ -21,7 +21,7 @@ namespace GithubTest
 
 
 			IWebElement element = driver.FindElement(By.Name("q"));
-			element.SendKeys("aycayakici slema");
+			element.SendKeys("aycayakici ccslema");
 			Thread.Sleep(2000);
 			element.SendKeys(Keys.Enter);
 			Thread.Sleep(2000);
