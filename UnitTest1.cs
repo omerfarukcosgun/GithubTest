@@ -12,6 +12,7 @@ namespace GithubTest
 		[TestMethod]
 		public void TestMethod1()
 		{
+			//açıklama
 			ChromeDriverService service = ChromeDriverService.CreateDefaultService();
 			service.HideCommandPromptWindow = true;
 
