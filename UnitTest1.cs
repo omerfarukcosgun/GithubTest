@@ -17,7 +17,7 @@ namespace GithubTest
 
 
 			IWebDriver driver = new ChromeDriver(service);
-			driver.Navigate().GoToUrl("https://github.com/");
+			driver.Navigate().GoToUrl("https://github.com/aycayakicii");
 
 
 			IWebElement element = driver.FindElement(By.Name("q"));
